@@ -75,10 +75,8 @@
                     <div class="right"><img src="{{structure_logo}}" /></div>
                 </td>
             </tr>
-        </table>			
-        <table>			
             <tr>
-                <td width="400"></td>
+                <td></td>
                 <td>
                     {{ beneficiary_name }}<br />
                     {{ beneficiary_address }}<br />
@@ -134,17 +132,8 @@
 
         <p>Recevez, {{ beneficiary_title }} {{ beneficiary_name }}, mes courtoises salutations.</p>
 
-        <table>
-            <tr>
-                <td width="400">
-                </td>
-                <td>
-					<p><strong>{{ user_name }}</strong></p>
-					<p>{{ user_position }}</p>				
-                </td>				
-            </tr>
-        </table>
-
+        <p class="right mt-1"><strong>{{ user_name }}</strong></p>
+        <p class="right mt-1">{{ user_position }}</p>
         <hr class="mt-2" />
         <p class="center mt-1">
             {{ structure_name }}<br />
